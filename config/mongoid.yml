@@ -67,7 +67,7 @@ test:
       options:
         consistency: :strong
 
-<% if ENV['MONGOHQ_URL'] %>
+<% if ENV['MONGOHQ_URL'] %> 
   production:
     sessions:
       default:
